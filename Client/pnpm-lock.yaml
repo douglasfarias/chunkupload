@@ -5,7 +5,11 @@ specifiers:
   '@babel/core': ^7.18.13
   '@babel/preset-env': ^7.18.10
   '@babel/preset-typescript': ^7.18.6
+  fetch-retry: ^5.0.3
   typescript: ^4.6.4
+
+dependencies:
+  fetch-retry: 5.0.3
 
 devDependencies:
   '@babel/cli': 7.18.10_@babel+core@7.18.13
@@ -1466,6 +1470,10 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /fetch-retry/5.0.3:
+    resolution: {integrity: sha512-uJQyMrX5IJZkhoEUBQ3EjxkeiZkppBd5jS/fMTJmfZxLSiaQjv2zD0kTvuvkSH89uFvgSlB6ueGpjD3HWN7Bxw==}
+    dev: false
 
   /fill-range/7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
